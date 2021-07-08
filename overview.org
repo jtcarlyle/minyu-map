@@ -1,0 +1,56 @@
+* Review of Current State
+  - The recent Minnan and Minbei data note tone classes with superscripts
+  - The earlier data never used superscripts for aspiration or tone class
+  - The earlier data has comments in [square brackects] that need to be scrubbed
+  - There is no Akitani Funing ci data
+  - Norman's Zheyang dialect /is/ the Zherong dialect.
+    + The town was renamed after "liberation"
+  - Some of the TSVs have a "note" field and other fields that need to be excluded
+      
+* Index Issues  
+  - The current index only has 44 matches in the shengzhi data
+    + Many of these don't match the Akitani indexes
+    + However, the shengzhi data is super low quality
+  - For now, I will not expand the current list. Instead
+    +trim crap entries
+    +redo glosses
+    +add in kwok cross indexes
+  - I have the shengzhi cross index somewhere. Maybe an old org in DropBox?
+  - Trimmed: 
+
+|  id | zitou | en_gloss   | akitani_zi_id | bie_zitou | zh_gloss | akitani_ci_id | shengzhi_zi_id | shengzhi_ci_id | notes             | reason              |
+|-----+-------+------------+---------------+-----------+----------+---------------+----------------+----------------+-------------------+---------------------|
+|   3 | 鯉    | carp       |               |           | 鯉魚     |               |                |                |                   | few sources         |
+|  10 | 簰    | raft       |               |           | 筏子     |               |                |                | check tyzb        | few sources         |
+|  23 | 廚    | kitchen    |               |           | 廚房     |            42 |                |                | different word    | not colloquial      |
+|  68 |       | field      |               |           | 田       |               |                |             96 | check tyzb        | maybe restore       |
+|  72 | 乞    | give       |               |           | 給       |               |                |            107 | varies_by_dialect | cannot verify sense |
+|  76 | 扼    | press_down |               |           | 壓       |               |                |                | check_tyzb        | few sources         |
+| 109 | 銅    | copper     |               |           | 銅       |               |                |                |                   | few sources         |
+| 118 | 擇    | choose     |               |           | 選擇     |           390 |                |                | varies by dialect | 揀 alternative      |
+| 103 | 種    | seed       |           984 |           | 種       |               |                |                |                   | noun vs verb        |
+| 130 | 赤    | red        |               |           | 紅       |               |                |                | check_tyzb        | not colloquial      |
+
+* Source Issues
+
+Shengzhi
+- Very low res
+- Tones are given by class in the data
+- Tones values listed only for out of sandhi
+- Some tones have wen/bai alternates that are not marked in the chart
+- tables have grids, but no side edges
+- praying this will work right
+
+Li Rulong
+- Bad organization
+- Little data for surrounding dialects
+
+* Tasks
+** TODO Write script to format all current data
+** TODO Attempt to get OCR to work with the 省志
+** TODO Format 省志 csv data
+** TODO Check 省志 transcriptions
+** TODO Standardize 省志 transcriptions
+** TODO Combine all data
+** TODO Assess Li Rulong feasibility
+
