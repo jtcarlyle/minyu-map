@@ -1,0 +1,10 @@
+* Minyu-Map
+This repo contains the data and a few small scripts for a paper of
+dialectometry applied to Min dialects. It covers 90+ sites and 122
+lexical items. The final output is a TSV that is used to make MDS and
+fuzzy cluster maps using Gabmap (and maybe RuG-L04 for some custom
+ones).
+
+** Overview
+** Sources
+** Closing Thoughts
